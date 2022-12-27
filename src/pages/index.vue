@@ -1,6 +1,10 @@
 <template>
     <div>홈화면</div>
-    <div>메타태그 테스트용</div>
+    <div>
+        메타태그 테스트용 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error
+        natus non sequi reiciendis dicta a? Impedit fugiat culpa nam? Eos aliquid
+        excepturi sapiente dolore assumenda possimus esse dolor accusamus quod?
+    </div>
     <div v-if="kakao_account.email">
         <h3 class="font-bold text-2xl">카카오톡으로 로그인 되었습니다</h3>
         <p>email : {{ kakao_account.email }}</p>
