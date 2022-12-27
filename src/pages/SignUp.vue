@@ -2,7 +2,7 @@
     <div class="mt-16 text-center">
         <ul class="flex flex-col gap-5">
             <li class="font-bold text-lg py-2">SOCIAL SIGN UP</li>
-            <li class="w-3/5 h-12 m-auto">
+            <li class="w-4/5 h-12 m-auto">
                 <button
                     class="bg-[#FEE500] text-black/[.85] w-full h-full py-2 grid grid-cols-3 m-auto items-center"
                     type="button"
@@ -12,7 +12,7 @@
                     <span class="col-span-2 text-left"> 카카오톡으로 가입하기 </span>
                 </button>
             </li>
-            <li class="w-3/5 h-12 m-auto">
+            <li class="w-4/5 h-12 m-auto">
                 <button
                     class="bg-[#03C75A] text-white w-full h-full py-2 grid grid-cols-3 m-auto items-center"
                     type="button"
@@ -25,7 +25,7 @@
                     <span class="col-span-2 text-left"> 네이버로 가입하기 </span>
                 </button>
             </li>
-            <li class="w-3/5 h-12 m-auto">
+            <li class="w-4/5 h-12 m-auto">
                 <div id="naver_id_login" class="w-full h-full"></div>
                 <button
                     class="bg-[#03C75A] text-white w-full h-full py-2 grid grid-cols-3 m-auto items-center"
@@ -40,7 +40,7 @@
                     <span class="col-span-2 text-left"> 네이버sdk1 가입하기 </span>
                 </button>
             </li>
-            <li class="w-3/5 h-12 m-auto">
+            <li class="w-4/5 h-12 m-auto">
                 <div id="naverIdLogin" class="w-full h-full" style="display: none"></div>
                 <button
                     class="bg-[#03C75A] text-white w-full h-full py-2 grid grid-cols-3 m-auto items-center"

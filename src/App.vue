@@ -64,7 +64,21 @@ const naverLogout = () => {
         });
 };
 // XXX: vue-meta test
-useMeta({ title: "메타 타이틀 테스트", htmlAttrs: { lang: "ko", amp: true } });
+useMeta({
+    title: "메타 타이틀 테스트",
+    htmlAttrs: { lang: "ko", amp: true },
+    meta: [
+        { property: "og:title", content: `기본메타테그 타이틀 변경 가능한가` },
+        {
+            property: "og:image",
+            content: `https://cdn.pixabay.com/photo/2021/02/10/17/20/robin-6002851_960_720.jpg`,
+        },
+        {
+            property: "og:description",
+            content: "default og description 변경 가능한가",
+        },
+    ],
+});
 </script>
 
 <template>

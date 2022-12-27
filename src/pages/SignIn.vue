@@ -5,7 +5,7 @@
                 <li class="font-bold text-lg py-2">SOCIAL SIGN IN</li>
                 <li>
                     <button
-                        class="bg-[#FEE500] text-black/[.85] w-3/5 h-12 py-2 grid grid-cols-3 m-auto items-center"
+                        class="bg-[#FEE500] text-black/[.85] w-4/5 h-12 py-2 grid grid-cols-3 m-auto items-center"
                         type="button"
                         @click="loginWithKakao"
                     >
@@ -17,7 +17,7 @@
                 </li>
                 <li>
                     <button
-                        class="bg-[#03C75A] text-white w-3/5 h-12 py-2 grid grid-cols-3 m-auto items-center"
+                        class="bg-[#03C75A] text-white w-4/5 h-12 py-2 grid grid-cols-3 m-auto items-center"
                         type="button"
                         @click="loginWithNaver"
                     >
@@ -48,6 +48,8 @@
 import axios from "axios";
 import { useRoute, useRouter } from "vue-router";
 import { reactive } from "vue";
+import { useMeta } from "vue-meta";
+
 let data = reactive({
     access_token: null,
     expires_in: null,
@@ -124,7 +126,7 @@ if (window.location.href.includes("access_token")) {
 
 // XXX: vue-meta test
 useMeta({
-    title: "Sign 페이지",
+    title: "Signin 페이지",
     meta: [
         { property: "og:title", content: `SignIn 페이지 meta title` },
         {
