@@ -6,7 +6,7 @@
   "homepage": "https://metatagtest1227.netlify.app/",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build &&  && echo '/* /index.html 200' | cat >build/_redirects ",
+    "build": "vue-tsc && vite build &&  && echo '/* /index.html 200' | cat >dist/_redirects ",
     "build-git": "vite build",
     "preview": "vite preview",
     "deploy":"npm run build && git add dist -f && git commit -m 'hosting' && git subtree push --prefix dist origin gh-pages"
