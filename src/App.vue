@@ -8,6 +8,7 @@ const data = reactive({ isLogin });
 
 const router = useRouter();
 onMounted(() => {
+    document.dispatchEvent(new Event("custom-render-trigger"));
     setTimeout(() => {
         loginCheck(); //  XXX 로그인 동적으로 체크 못하냐고-_-+
     }, 500);

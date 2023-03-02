@@ -7,7 +7,23 @@ const routes = [
         // meta: {
         //     requireLogin : true
         // },
-        component: ()=> import("../pages/index.vue")
+        component: ()=> import("../pages/index.vue"),
+        /*
+        meta:{
+            title: "인덱스22", 
+            metaTags:[
+                {
+                    name: "description",
+                    content: "description222222"
+                },
+                { property: "og:title", content: `index 페이지222222` },
+                {
+                    property: 'og:image',
+                    content:  'https://cdn.pixabay.com/photo/2021/02/10/17/20/robin-6002851_960_720.jpg'
+                }
+            ]
+        }
+        */
     },
     {
         path: '/signup',
